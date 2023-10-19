@@ -48,7 +48,7 @@ export default function ArticleList({
               </dl>
               <div className="space-y-3 md:col-span-3">
                 <Heading>
-                  <Link href={`/blog/post/${article.article_id}`}>
+                  <Link href={`/post/${article.article_id}`}>
                     {article.article_info.title}
                   </Link>
                 </Heading>

@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import { ReactNode } from "react";
-import { Image } from '@chakra-ui/react'
+import { Button, Image } from '@chakra-ui/react'
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { config } from "../config";
@@ -36,10 +36,10 @@ export default function Layout({ children }: Props) {
             </Link>
           </div>
           <div className="tracking-wide text-xs spaced-x-6">
-            <Link href="/blog">
-              <span className=" font-semibold no-underline hover:text-primary-500">
-                全部文章
-              </span>
+            <Link href="https://juejin.cn/creator/home">
+              <Button>
+                写文章
+              </Button>
             </Link>
           </div>
         </div>

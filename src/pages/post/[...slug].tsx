@@ -3,8 +3,8 @@ import React, { useEffect } from "react";
 import { GetServerSidePropsContext } from "next";
 import { InferGetServerSidePropsType } from "next";
 import Error from "next/error";
-import { getArticleDetail } from "../../../lib/db";
-import { Article } from "../../../types/article";
+import { getArticleDetail } from "../../lib/db";
+import { Article } from "../../types/article";
 import matter from "gray-matter";
 import { Heading } from '@chakra-ui/react'
 import { Text } from '@chakra-ui/react'
